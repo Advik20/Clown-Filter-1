@@ -1,0 +1,36 @@
+h3
+{
+ font-size: 25px !important;
+}
+
+.btn-success:hover
+{
+    background-color: cyan;
+    color: black
+}
+
+canvas {
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example{
+    from {box-shadow: 1px 1px 38px blue; }
+    to {box-shadow: 1px 1px 38px orange; }
+}
+body
+{
+    font-family: 'Quicksand', sans-serif;
+}
+.copy_right_footer {
+    position:fixed;
+    color:darkblue;
+    bottom:0;
+    width:100% ;
+    font-size: 18px;
+    background-color:cyan;
+    line-height: 2;
+    text-align: center;
+    text-shadow: 5px 5px 5px cyan;
+}
